@@ -1,0 +1,12 @@
+Source: ros-kinetic-jog-arm
+Section: misc
+Priority: extra
+Maintainer: Blake Anderson <blakeanderson@utexas.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-geometry-msgs, ros-kinetic-joy, ros-kinetic-moveit-ros-manipulation, ros-kinetic-moveit-ros-move-group, ros-kinetic-moveit-ros-planning-interface, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Homepage: http://wiki.ros.org/jog_arm
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-jog-arm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cmake-modules, ros-kinetic-geometry-msgs, ros-kinetic-joy, ros-kinetic-moveit-ros-manipulation, ros-kinetic-moveit-ros-move-group, ros-kinetic-moveit-ros-planning-interface, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Description: Provides manipulator cartesian jogging.
